@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=GND Pin=GAIN-3
+Removed Pin From Net: NetName=GND Pin=INPUT-3
+Removed Pin From Net: NetName=GND Pin=OUTPUT-3
+Removed Pin From Net: NetName=NetR2_1 Pin=R3-1
+Removed Pin From Net: NetName=OUTD Pin=R3-2
+Change Component Footprint: Designator=R3 Old Footprint=RES-ADJ_3296W New Footprint=0603
+Change Component Comment : Designator=R2 Old Comment=10K次 New Comment=100次
+Change Component Comment : Designator=R3 Old Comment=500 New Comment=10K次
+Change component parameters: Designator = "R3"; Footprint = "0603"; UniqueID = "\DFTTRHWI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "BOM_Manufacturer"; Value = "UniOhm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "BOM_Manufacturer Part"; Value = "TC0350D1002T5E"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "BOM_Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "BOM_Supplier Part"; Value = "C64266"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "nameAlias"; Value = "Value"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "spicePre"; Value = "R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "spiceSymbolName"; Value = "TC0350D1002T5E"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=OUTD Pin=R3-1
+Added Pin To Net: NetName=NetR2_1 Pin=R3-2
+Added Member To Class: ClassName=Sheet1 Member=Component R3 10K次

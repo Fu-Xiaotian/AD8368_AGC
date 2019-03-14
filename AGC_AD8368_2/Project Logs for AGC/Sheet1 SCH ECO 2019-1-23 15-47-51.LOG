@@ -1,0 +1,4 @@
+Remove Pin=C5-1 From Net=OUTD
+Remove Pin=GAIN-1 From Net=GAIN
+Remove Pin=U1-19 From Net=IND
+Change Component Comment: Designator=R2 Old Comment=100¦¸ New Comment=10K¦¸
